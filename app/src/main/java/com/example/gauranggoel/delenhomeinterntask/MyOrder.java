@@ -9,9 +9,10 @@ public class MyOrder {
     String cost;
     String status;
     String address;
+    String url;
 
 
-    public MyOrder(String time, String id, String workType, String workerName, String cost, String status, String address) {
+    public MyOrder(String time, String id, String workType, String workerName, String cost, String status, String address,String url) {
         this.time = time;
         this.id = id;
         this.workType = workType;
@@ -19,5 +20,6 @@ public class MyOrder {
         this.cost = cost;
         this.status = status;
         this.address = address;
+        this.url=url;
     }
 }

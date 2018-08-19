@@ -12,6 +12,8 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+
 public class CustomAdapterOder extends ArrayAdapter {
 
     Activity activity;
@@ -49,7 +51,7 @@ public class CustomAdapterOder extends ArrayAdapter {
         textView5.setText(order[position].status);
         textView6.setText(order[position].cost);
 
-        //Glide =for image from firebase
+        //Glide.with(activity).load(url)
         return v;
     }
 }

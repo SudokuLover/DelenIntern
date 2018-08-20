@@ -7,6 +7,31 @@
     tools:context=".Main2Activity"
     android:orientation="vertical">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        style="@style/HeaderBar"
+        android:background="#ffffff"
+        android:elevation="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+             android:clickable="true"
+            android:id="@+id/icon"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:id="@+id/id"/>
+
+    </android.support.v7.widget.Toolbar>
+
 <ScrollView
     android:layout_width="match_parent"
     android:layout_height="match_parent">

@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity  {
                             i.putExtra("url",orderItem.getUrl());
 
                             startActivity(i);
+                            finish();
                         }
                     });
 

@@ -72,6 +72,7 @@ public class MainActivity extends AppCompatActivity  {
                             i.putExtra("cost",orderItem.getCost());
                             i.putExtra("id",orderItem.getId());
                             i.putExtra("workerName",orderItem.getWorkerName());
+                            i.putExtra("url",orderItem.getUrl());
 
                             startActivity(i);
                         }

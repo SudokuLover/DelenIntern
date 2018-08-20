@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    android:layout_marginTop="0dp"
     android:orientation="horizontal">
 
     <ImageView
@@ -9,6 +11,7 @@
         android:layout_height="80dp"
         android:layout_weight="1"
         android:id="@+id/imageView"
+        android:src="@drawable/ic_photo_camera_black_24dp"
         />
 
     <LinearLayout
@@ -19,11 +22,13 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/workTime"/>
+            android:id="@+id/workTime"
+            android:textStyle="bold"/>
         <TextView
             android:layout_marginTop="11dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:id="@+id/trans_Id"/>
 
         <LinearLayout
@@ -34,7 +39,8 @@
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/workerType" />
+                android:id="@+id/workerType"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
@@ -56,6 +62,7 @@
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
            android:layout_marginTop="20dp"
-           android:id="@+id/cost"/>
+           android:id="@+id/cost"
+           android:textStyle="bold"/>
    </LinearLayout>
 </LinearLayout>
